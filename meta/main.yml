@@ -1,0 +1,19 @@
+galaxy_info:
+  role_name: mariadb
+  author: William Wu
+  description: Install and configure MariaDB server
+  company: PyLabs
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+  - name: Debian
+    versions:
+    - Buster
+    - 10
+  galaxy_tags:
+    - mariadb
+    - mysql
+    - database
+    - debian
+dependencies:
+  - pylabs.sysbase
